@@ -5,7 +5,7 @@ date: "Jan 5, 2026"
 readTime: "5 min read"
 image: "/blogs/case-studies.svg"
 slug: "turning-projects-into-case-studies"
-author: "Your Name"
+author: "Average Joe"
 tags:
   ["Case Study", "Portfolio", "Writing", "Projects"]
 category: "Writing"

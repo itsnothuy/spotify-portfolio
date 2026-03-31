@@ -44,7 +44,7 @@ function PersonalStatement() {
         {siteConfig.owner.profileBody}
         <br />
         <br />
-        I&apos;m currently building at{" "}
+        Currently at{" "}
         <a
           href={siteConfig.owner.currentCompany.url}
           className="text-spotify-green underline"
@@ -54,15 +54,15 @@ function PersonalStatement() {
         <br />
         <br />
         <span>
-          My interests center on{" "}
+          Focus areas:{" "}
           <span className="text-spotify-green">{siteConfig.owner.focus}</span>.
         </span>
         <br />
         <br />
         <span>
-          {siteConfig.owner.blogPrompt} Browse the example posts{" "}
+          {siteConfig.owner.blogPrompt} See sample posts{" "}
           <a href="/blog" className="text-spotify-green underline">
-            here.
+            in the writing tab.
           </a>{" "}
         </span>
       </h4>

@@ -5,7 +5,7 @@ date: "Dec 28, 2025"
 readTime: "4 min read"
 image: "/blogs/maintenance.svg"
 slug: "keep-your-portfolio-easy-to-update"
-author: "Your Name"
+author: "Average Joe"
 tags:
   ["Maintenance", "Portfolio", "Workflow"]
 category: "Workflow"

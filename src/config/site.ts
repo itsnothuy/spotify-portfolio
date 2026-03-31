@@ -2,38 +2,39 @@ export type SocialPlatform = "github" | "linkedin" | "x";
 
 export const siteConfig = {
   siteName: "spotify-portfolio",
-  siteUrl: "https://your-domain.com",
+  siteUrl: "https://averagejoe.dev",
   locale: "en_US",
   owner: {
-    name: "Your Name",
-    role: "Product Engineer",
-    headline: "Engineer • Designer • Storyteller",
+    name: "Average Joe",
+    role: "Builder of Mostly Useful Things",
+    headline: "Engineer • Tinkerer • Occasional Overthinker",
     description:
-      "A Spotify-inspired portfolio starter for engineers, designers, and creative technologists who want a bold personal website.",
+      "A Spotify-inspired portfolio starter for people who want a personal site with some personality and a low-effort content workflow.",
     currentCompany: {
-      name: "North Star Studio",
+      name: "Acme Moonbase",
       url: "https://example.com",
     },
-    profileIntro: "Welcome. Make this space unmistakably yours.",
+    profileIntro:
+      "Hi, I&apos;m Average Joe. I build things, break them, and usually fix them before lunch.",
     profileBody:
-      "Use this starter to introduce the work you care about, the teams you have helped, and the direction you are heading next.",
+      "Use this starter to show the projects you are proud of, the teams you have helped, and the rabbit holes you are currently disappearing into.",
     focus:
-      "product systems, frontend architecture, and developer experiences that feel polished and human",
+      "product systems, frontend architecture, and shipping weird little ideas that turn out useful",
     blogPrompt:
-      "Swap these example posts for your own notes, essays, or project breakdowns.",
+      "These sample posts are here so the blog does not feel abandoned on day one.",
   },
   contact: {
-    email: "hello@yourdomain.com",
+    email: "joe@averagejoe.dev",
   },
   socials: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://www.linkedin.com/in/your-linkedin",
-    x: "https://x.com/yourhandle",
+    github: "https://github.com/averagejoe",
+    linkedin: "https://www.linkedin.com/in/average-joe-dev",
+    x: "https://x.com/averagejoedev",
   },
   seo: {
-    defaultTitle: "Your Name | Product Engineer",
+    defaultTitle: "Average Joe | Builder of Mostly Useful Things",
     description:
-      "A Spotify-inspired portfolio starter for engineers, designers, and creative technologists who want a bold personal website.",
+      "A Spotify-inspired portfolio starter for people who want a personal site with some personality and a low-effort content workflow.",
     keywords: [
       "portfolio website",
       "spotify portfolio",
@@ -49,7 +50,7 @@ export const siteConfig = {
     title: "Writings",
     description:
       "Notes on shipping projects, documenting decisions, and keeping a personal site current.",
-    author: "Your Name",
+    author: "Average Joe",
   },
   footer: {
     repositoryUrl: "",

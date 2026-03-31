@@ -51,7 +51,7 @@ The body is regular markdown. Internal links like `/blog/post/my-post-slug` work
 ## 5. Final cleanup before launch
 
 - update `siteUrl`
-- replace `Your Name`, `yourusername`, and `yourhandle`
+- replace `Average Joe`, `averagejoe`, and `averagejoedev`
 - swap all starter media
 - remove or rewrite the sample blog posts
 - run `npm run build`

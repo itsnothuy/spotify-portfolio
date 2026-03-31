@@ -5,7 +5,7 @@ date: "Jan 12, 2026"
 readTime: "4 min read"
 image: "/blogs/customizing-template.svg"
 slug: "customizing-your-portfolio"
-author: "Your Name"
+author: "Average Joe"
 tags:
   ["Portfolio", "Next.js", "Customization", "Personal Website"]
 category: "Template Guide"
