@@ -1,8 +1,8 @@
-# Spotify Portfolio Template
+# Spotify Portfolio Template 🪴
 
 > The template behind [luannguyen.net](https://www.luannguyen.net)
 
-<img src="public/og-template.svg" width="700" alt="Portfolio template preview">
+<img src="public/portfolio_highres.png" width="700" alt="Portfolio template preview">
 
 A Spotify-inspired portfolio template built with Next.js 15, Tailwind CSS, and TypeScript.
 
@@ -20,12 +20,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Customize
 
 Update your content in:
-
-- `src/config/site.ts`
-- `data/experience.ts`
-- `data/projects.ts`
-- `src/content/blog/`
-- `public/`
 
 ## Docker
 
