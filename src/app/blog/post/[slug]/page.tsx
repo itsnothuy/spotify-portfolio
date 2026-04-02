@@ -179,6 +179,10 @@ export default async function IndividualBlogPostPage({
 
 // Generate static params for known blog posts
 export async function generateStaticParams() {
-  const slugs = getAllPostSlugs();
-  return slugs;
+  try {
+    return getAllPostSlugs();
+  } catch (err: any) {
+    if (err?.code === "ENOENT") return [];
+    throw err;
+  }
 }

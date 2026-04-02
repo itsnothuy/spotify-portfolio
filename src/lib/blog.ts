@@ -28,7 +28,13 @@ export interface BlogPostWithContent extends BlogPost {
 
 export function getSortedPostsData(): BlogPost[] {
   // Get file names under /content/blog
-  const fileNames = fs.readdirSync(postsDirectory);
+  let fileNames: string[];
+  try {
+    fileNames = fs.readdirSync(postsDirectory);
+  } catch (err: any) {
+    if (err?.code === "ENOENT") return [];
+    throw err;
+  }
 
   const allPostsData = fileNames
     .filter((name) => name.endsWith(".md"))
@@ -60,7 +66,13 @@ export function getSortedPostsData(): BlogPost[] {
 }
 
 export function getAllPostSlugs() {
-  const fileNames = fs.readdirSync(postsDirectory);
+  let fileNames: string[];
+  try {
+    fileNames = fs.readdirSync(postsDirectory);
+  } catch (err: any) {
+    if (err?.code === "ENOENT") return [];
+    throw err;
+  }
 
   return fileNames
     .filter((name) => name.endsWith(".md"))
