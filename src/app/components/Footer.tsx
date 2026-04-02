@@ -5,26 +5,31 @@ export default function Footer() {
   return (
     <footer className="max-lg:col-span-1  max-lg:row-span-1 col-span-6 items-center text-center mb-10">
       <p className="text-spotify-light-gray max-md:text-sm">
-        &copy; {new Date().getFullYear()} {siteConfig.owner.name}
+        &copy; {siteConfig.owner.name}&apos;s portfolio {new Date().getFullYear()}
       </p>
-      <p className="text-spotify-light-gray max-md:text-sm mt-5">
-        Built with Next.js, Tailwind CSS, and reusable content files. Update
-        the starter data, swap the media, and make it yours.
+      <p className="text-spotify-light-gray max-md:text-sm mt-3">
+        Built with Next.js, TailwindCSS, and Aceternity UI.
       </p>
-      {siteConfig.footer.repositoryUrl ? (
-        <p className="text-spotify-light-gray max-md:text-sm mt-2">
-          Source code{" "}
-          <a
-            href={siteConfig.footer.repositoryUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-spotify-green font-semibold underline"
-          >
-            here
-          </a>
-          .
-        </p>
-      ) : null}
+      <p className="text-spotify-light-gray max-md:text-sm mt-3">
+        Original template by{" "}
+        <a
+          href="https://github.com/LuaanNguyen"
+          className="text-spotify-green font-semibold underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Luan Nguyen
+        </a>
+        {" "}•{" "}
+        <a
+          href="https://github.com/LuaanNguyen/portfolio"
+          className="text-spotify-green font-semibold underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
+      </p>
     </footer>
   );
 }

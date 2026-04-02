@@ -38,29 +38,27 @@ function PersonalStatement() {
         <p className="text-spotify-gray text-sm">{siteConfig.owner.headline}</p>
       </div>
       <h4 className="text-sm">
+        Hey!
+        <br />
+        <br />
+        Welcome to my portfolio! I hope your stay is satisfactory.
+        <br />
+        <br />
         {siteConfig.owner.profileBody}
         <br />
         <br />
-        Currently at{" "}
-        <a
-          href={siteConfig.owner.currentCompany.url}
-          className="text-spotify-green underline"
-        >
-          {siteConfig.owner.currentCompany.name}.
-        </a>{" "}
-        <br />
-        <br />
         <span>
-          Focus areas:{" "}
+          My interests center on{" "}
           <span className="text-spotify-green">{siteConfig.owner.focus}</span>.
         </span>
         <br />
         <br />
         <span>
-          {siteConfig.owner.blogPrompt} See sample posts{" "}
+          Click{" "}
           <a href="/blog" className="text-spotify-green underline">
-            in the writing tab.
+            here
           </a>{" "}
+          for more info about me and my work.
         </span>
       </h4>
     </div>

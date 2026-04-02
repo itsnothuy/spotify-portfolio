@@ -105,4 +105,37 @@ const languageItems: {
       />
     ),
   },
+  {
+    name: "C",
+    component: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+        width={32}
+        height={32}
+        alt="C"
+      />
+    ),
+  },
+  {
+    name: "MongoDB",
+    component: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+        width={35}
+        height={35}
+        alt="MongoDB"
+      />
+    ),
+  },
+  {
+    name: "Redis",
+    component: (
+      <Image
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg"
+        width={35}
+        height={35}
+        alt="Redis"
+      />
+    ),
+  },
 ];

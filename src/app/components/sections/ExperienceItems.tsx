@@ -21,7 +21,7 @@ export default function ExperienceItem() {
       id="experience"
     >
       <div className="bg-spotify-gray px-6 py-4">
-        <h2 className="text-xl font-semibold mb-1">Experience</h2>
+        <h2 className="text-xl font-semibold mb-1">Professional Experience</h2>
         <p className="flex items-center gap-1.5 text-spotify-grey text-sm">
           <CiGlobe className="text-lg" />
           {experienceLists.length} positions • {internshipCount} internship

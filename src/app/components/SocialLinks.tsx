@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareFacebook } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { siteConfig } from "@/src/config/site";
 
@@ -45,10 +45,10 @@ const socialMedias: socialMediasProps = [
     ariaLabel: "Visit the LinkedIn profile",
   },
   {
-    title: "X",
-    url: siteConfig.socials.x,
-    icon: <FaSquareXTwitter />,
-    ariaLabel: "Visit the X profile",
+    title: "Facebook",
+    url: siteConfig.socials.facebook,
+    icon: <FaSquareFacebook />,
+    ariaLabel: "Visit the Facebook profile",
   },
   {
     title: "Email",

@@ -1,70 +1,69 @@
-export type SocialPlatform = "github" | "linkedin" | "x";
+export type SocialPlatform = "github" | "linkedin" | "x" | "facebook";
 
 export const siteConfig = {
-  siteName: "spotify-portfolio",
-  siteUrl: "https://averagejoe.dev",
+  siteName: "Huy Tran's Portfolio",
+  siteUrl: "https://huytrn.vercel.app",
   locale: "en_US",
   owner: {
-    name: "Average Joe",
-    role: "Builder of Mostly Useful Things",
-    headline: "Engineer • Tinkerer • Occasional Overthinker",
+    name: "Huy Tran",
+    role: "Software Engineer",
+    headline: "Engineer • Architect • OS Contributor",
     description:
-      "A Spotify-inspired portfolio starter for people who want a personal site with some personality and a low-effort content workflow.",
+      "Software Engineer",
     currentCompany: {
-      name: "Acme Moonbase",
-      url: "https://example.com",
+      name: "HONEYNET",
+      url: "https://honeynet.vn/",
     },
     profileIntro:
-      "Hi, I&apos;m Average Joe. I build things, break them, and usually fix them before lunch.",
+      "Hey! Welcome to my portfolio!",
     profileBody:
-      "Use this starter to show the projects you are proud of or the rabbit holes you are currently disappearing into.",
+      "I&apos;m currently helping contribute to open-source projects as a software engineer on a daily basis.",
     focus:
-      "product systems, and shipping weird little ideas that turn out useful",
-    blogPrompt: "",
+      "systems and AI infrastructure, including distributed services and platforms that enable machine learning to operate in production",
+    blogPrompt: "Click here for more info about me and my work.",
   },
   contact: {
-    email: "joe@averagejoe.dev",
+    email: "",
   },
   socials: {
-    github: "https://github.com/averagejoe",
-    linkedin: "https://www.linkedin.com/in/average-joe-dev",
-    x: "https://x.com/averagejoedev",
+    github: "https://github.com/itsnothuy",
+    linkedin: "https://www.linkedin.com/in/huy-trann/",
+    x: "",
+    facebook: "https://www.facebook.com/huytran.664457",
   },
   seo: {
-    defaultTitle: "Average Joe | Builder of Mostly Useful Things",
+    defaultTitle: "Huy Tran | Software Engineer",
     description:
-      "A Spotify-inspired portfolio starter for people who want a personal site with some personality and a low-effort content workflow.",
+      "Software Engineer",
     keywords: [
-      "portfolio website",
-      "spotify portfolio",
-      "next.js portfolio",
-      "software engineer portfolio",
-      "design engineer portfolio",
+      "Huy Tran",
+      "Software Engineer",
+      "AI/ML",
+      "Cloud Computing",
     ],
-    ogImage: "/og-template.svg",
-    ogImageAlt: "Spotify-inspired portfolio starter preview",
+    ogImage: "/huy1.JPG",
+    ogImageAlt: "Huy Tran Portfolio",
     twitterHandle: "",
   },
   blog: {
     title: "Writings",
-    description:
-      "Notes on shipping projects, documenting decisions, and keeping a personal site current.",
-    author: "Average Joe",
+    description: "",
+    author: "Huy Tran",
   },
   footer: {
-    repositoryUrl: "",
+    repositoryUrl: "https://github.com/itsnothuy",
   },
   features: {
-    vercelAnalytics: false,
-    speedInsights: false,
+    vercelAnalytics: true,
+    speedInsights: true,
   },
   widgets: {
-    githubUsername: "",
-    spotifyEmbedUrl: "",
+    githubUsername: "itsnothuy",
+    spotifyEmbedUrl: "https://open.spotify.com/embed/album/7txGsnDSqVMoRl6RQ9XyZP?utm_source=generator",
   },
   assets: {
-    avatar: "/avatar-placeholder.svg",
-    favicon: "/favicon.svg",
+    avatar: "/huy2 copy.jpg",
+    favicon: "/huy1.JPG",
   },
 } as const;
 
